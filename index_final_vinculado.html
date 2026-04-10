@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Registros RDF</title>
+<style>
+body { font-family: Arial; margin:20px; }
+h1 { text-align:center; }
+h2 { background:#e0e0e0; padding:8px; }
+table { width:100%; border-collapse:collapse; margin-bottom:25px; }
+th, td { border:1px solid #ccc; padding:8px; }
+th { background:#f5f5f5; width:30%; }
+a { color:#1a0dab; text-decoration:none; }
+</style>
+</head>
+
+<body>
+
+<h1>Registros RDF</h1>
+
+<h2 id="persona-2111">Persona</h2>
+<table>
+<tr><th>Nombre</th><td>Stepanenko Gutiérrez, Pedro</td></tr>
+<tr><th>Afiliación</th>
+<td>
+<a href="http://id.loc.gov/authorities/names/n81032224">
+UNAM = Universidad Nacional Autónoma de México. Instituto de Investigaciones Filosóficas
+</a>
+</td></tr>
+<tr><th>Obras</th>
+<td>
+<a href="#obra-881218">Categorías y autoconciencia en Kant</a><br>
+<a href="#obra-1162290">Unidad de la conciencia y objetividad</a>
+</td></tr>
+</table>
+
+<h2 id="obra-881218">Categorías y autoconciencia en Kant</h2>
+<h3>Obra</h3>
+<table>
+<tr><th>Autor</th>
+<td><a href="#persona-2111">Stepanenko Gutiérrez, Pedro</a></td></tr>
+<tr><th>Expresión</th>
+<td><a href="#expresion-881218">Texto en español</a></td></tr>
+</table>
+
+<h3 id="expresion-881218">Expresión</h3>
+<table>
+<tr><th>Obra</th>
+<td><a href="#obra-881218">Categorías y autoconciencia en Kant</a></td></tr>
+<tr><th>Manifestación</th>
+<td><a href="#recurso-881218">Categorías y autoconciencia en Kant (2000)</a></td></tr>
+</table>
+
+<h3 id="recurso-881218">Manifestación</h3>
+<table>
+<tr><th>Expresión</th>
+<td><a href="#expresion-881218">Texto en español</a></td></tr>
+<tr><th>Año</th><td>2000</td></tr>
+</table>
+
+<h2 id="obra-1162290">Unidad de la conciencia y objetividad</h2>
+<h3>Obra</h3>
+<table>
+<tr><th>Autor</th>
+<td><a href="#persona-2111">Stepanenko Gutiérrez, Pedro</a></td></tr>
+<tr><th>Expresión</th>
+<td><a href="#expresion-1162290">Texto en español</a></td></tr>
+</table>
+
+<h3 id="expresion-1162290">Expresión</h3>
+<table>
+<tr><th>Obra</th>
+<td><a href="#obra-1162290">Unidad de la conciencia y objetividad</a></td></tr>
+<tr><th>Manifestación</th>
+<td><a href="#recurso-1162290">Unidad de la conciencia y objetividad (2008)</a></td></tr>
+</table>
+
+<h3 id="recurso-1162290">Manifestación</h3>
+<table>
+<tr><th>Expresión</th>
+<td><a href="#expresion-1162290">Texto en español</a></td></tr>
+<tr><th>Año</th><td>2008</td></tr>
+</table>
+
+</body>
+</html>
