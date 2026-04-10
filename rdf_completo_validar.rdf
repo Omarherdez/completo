@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+    xmlns:rdae="http://rdaregistry.info/Elements/e/"
+    xmlns:rdam="http://rdaregistry.info/Elements/m/"
+    xmlns:rdaa="http://rdaregistry.info/Elements/a/"
+    xmlns:rdac="http://rdaregistry.info/Elements/c/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+    <rdf:Description rdf:about="http://example.org/autoridad/2111">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10004"/>
+        <rdfs:label>Stepanenko Gutiérrez, Pedro</rdfs:label>
+        <rdaa:P50411>Stepanenko Gutiérrez, Pedro</rdaa:P50411>
+        <rdaa:P50117>Stepanenko Gutiérrez, Pedro</rdaa:P50117>
+        <rdaa:P50103>Gutiérrez, Pedro Stepanenko</rdaa:P50103>
+        <rdaa:P50100 rdf:resource="http://id.loc.gov/authorities/subjects/sh85072732"/>
+        <rdaa:P50100 rdf:resource="http://id.loc.gov/authorities/subjects/sh89004340"/>
+        <rdaa:P50100 rdf:resource="http://id.loc.gov/authorities/subjects/sh85100960"/>
+        <rdaa:P50318 rdf:resource="http://id.loc.gov/authorities/names/n81032224"/>
+        <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+        <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+        <rdaa:P50116 rdf:resource="http://id.loc.gov/authorities/demographicTerms/dg2015060359"/>
+        <rdaa:P50094>141650 (unam)</rdaa:P50094>
+        <rdaa:P50094 rdf:resource="http://viaf.org/viaf/7136468"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/7136468"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/obra/881218-w">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+        <rdfs:label>Categorías y autoconciencia en Kant</rdfs:label>
+        <rdaw:P10061 rdf:resource="http://example.org/autoridad/2111"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/names/no2002033195"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/subjects/sh85020993"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/subjects/sh85072732"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/expresion/881218-e">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
+        <rdfs:label>Texto en español</rdfs:label>
+        <rdae:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+        <rdae:P20006 rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+        <rdae:P20231 rdf:resource="http://example.org/obra/881218-w"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/recurso/881218">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
+        <rdfs:label>Categorías y autoconciencia en Kant</rdfs:label>
+        <rdam:P30004>ISBN 968-36-8384-3</rdam:P30004>
+        <rdam:P30134>Categorías y autoconciencia en Kant</rdam:P30134>
+        <rdam:P30156>antecedentes y objetivos de la deducción trascendental de las categorías</rdam:P30156>
+        <rdam:P30105>Pedro Stepanenko Gutiérrez</rdam:P30105>
+        <rdam:P30088 rdf:resource="https://sws.geonames.org/3996063/"/>
+        <rdam:P30176 rdf:resource="http://id.loc.gov/authorities/names/n81032224"/>
+        <rdam:P30011>2000</rdam:P30011>
+        <rdam:P30182>214 páginas</rdam:P30182>
+        <rdam:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+        <rdam:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+        <rdam:P30157>Historia de la filosofía</rdam:P30157>
+        <rdam:P30139 rdf:resource="http://example.org/expresion/881218-e"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/obra/1162290-w">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+        <rdfs:label>Unidad de la conciencia y objetividad</rdfs:label>
+        <rdaw:P10061 rdf:resource="http://example.org/autoridad/2111"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/names/n79021614"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/subjects/sh85072732"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/subjects/sh85093660"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/subjects/sh85129469"/>
+        <rdaw:P10256 rdf:resource="http://id.loc.gov/authorities/subjects/sh85123125"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/expresion/1162290-e">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
+        <rdfs:label>Texto en español</rdfs:label>
+        <rdae:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+        <rdae:P20006 rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+        <rdae:P20231 rdf:resource="http://example.org/obra/1162290-w"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://example.org/recurso/1162290">
+        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
+        <rdfs:label>Unidad de la conciencia y objetividad</rdfs:label>
+        <rdam:P30004>ISBN 9786072002067</rdam:P30004>
+        <rdam:P30004>ISBN 6072002064</rdam:P30004>
+        <rdam:P30134>Unidad de la conciencia y objetividad</rdam:P30134>
+        <rdam:P30156>ensayos sobre autoconciencia, subjetividad y escepticismo en Kant</rdam:P30156>
+        <rdam:P30105>Pedro Stepanenko Gutiérrez</rdam:P30105>
+        <rdam:P30088 rdf:resource="https://sws.geonames.org/3996063/"/>
+        <rdam:P30176 rdf:resource="http://id.loc.gov/authorities/names/n81032224"/>
+        <rdam:P30011>2008</rdam:P30011>
+        <rdam:P30182>204 páginas</rdam:P30182>
+        <rdam:P30002 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+        <rdam:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+        <rdam:P30139 rdf:resource="http://example.org/expresion/1162290-e"/>
+    </rdf:Description>
+
+</rdf:RDF>
